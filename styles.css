@@ -1,0 +1,22 @@
+.slideshow{
+    border:2px solid red;
+    width: 800px;
+    height:400px;
+    position:relative; /* by default everything is in its static position, based on its surrounding content
+    // when it's relative, it's relative to its static position*/
+
+}
+
+.slide {
+    position: absolute;
+    width: 800px;
+    height:400px;
+    top:0;
+    left:0;
+    display:none;
+    overflow:hidden;
+}
+
+.slide:first-child {
+    display:block;
+}
